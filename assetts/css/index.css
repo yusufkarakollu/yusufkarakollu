@@ -1,38 +1,56 @@
-body{
+body {
     background-color: rgb(36, 33, 33);
 }
 
-h1{
+h1 {
+    color: white;
+    margin-top: 400px;
+}
+
+.h3ozellik {
+    color: rgb(255, 0, 242);
+    margin-top: 200px;
+}
+
+.h3ozellik2 {
     color: white;
     margin-top: 10px;
 }
 
-.yaziozellik{
+.yaziozellik {
     font-size: xx-large;
     margin-left: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+
 }
 
-a:link{
+a:link {
     text-decoration: none;
 }
 
-.image-link:hover img{
+.image-link:hover img {
     opacity: 0.5;
 }
 
 ::-webkit-scrollbar {
     width: 10px;
     background-color: rgb(36, 33, 33);
-    }
-    ::-webkit-scrollbar-thumb {
+}
+
+::-webkit-scrollbar-thumb {
     background-color: #6b6b6b;
     border: 3px;
     border-radius: 30px;
-    }
-    ::-webkit-scrollbar-thumb:hover {
-    background-color: #fff;
-    }
+}
 
-    
+::-webkit-scrollbar-thumb:hover {
+    background-color: #fff;
+}
+
+.arrowozellik {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
