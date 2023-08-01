@@ -55,3 +55,8 @@ a:link {
     font-size: 18px;
     color: white;
   }
+
+  /* İçeriğin başlangıçta görünmemesi için gizliyoruz */
+#content {
+    display: none;
+}
