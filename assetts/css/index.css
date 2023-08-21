@@ -54,9 +54,9 @@ a:link {
     text-align: center;
     font-size: 18px;
     color: white;
-  }
+}
 
-  /* İçeriğin başlangıçta görünmemesi için gizliyoruz */
-#content {
+/* İçeriğin başlangıçta görünmemesi için gizliyoruz */
+.content {
     display: none;
 }
